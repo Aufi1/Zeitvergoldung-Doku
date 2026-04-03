@@ -1,28 +1,83 @@
 # Konkurrenzanalyse: Lebensgeschichten-Buch aus Interviews
 
-Stand: 31. Maerz 2026
+Stand: April 2026
 
-Produktidee: Ein Service, bei dem man Eltern/Grosseltern ueber ~4 adaptive Sessions interviewt, die Gespraeche transkribiert werden und am Ende ein professionell produziertes Buch ueber deren Leben entsteht.
+## Abstract
 
-Bereits bekannte Wettbewerber: StoryWorth, Meminto Stories, Interview meines Lebens, Gallus Verlag, Closely App.
+**Produktidee:** Ein Service, bei dem man mit Eltern oder Grosseltern ueber ~4 adaptive Sessions ein Interview fuehrt. Die Gespraeche werden transkribiert und daraus entsteht ein professionell produziertes Buch ueber das Leben der interviewten Person. Jede Folge-Session baut adaptiv auf den vorherigen Gespraechen auf.
+
+### Markt-Kategorisierung
+
+Der Markt fuer "Life Story Preservation" laesst sich in drei Segmente unterteilen, die sich fundamental in Skalierbarkeit, Preis und Persoenlichkeit unterscheiden:
+
+```
+Preis        |  Premium Human Services
+$500-50K+    |  (Gallus Verlag, Interview meines Lebens, LifeBook Memoirs, Ghostwriter)
+             |  + Sehr persoenlich, emotionale Tiefe
+             |  - Teuer, nicht skalierbar, langer Prozess
+             |
+             |             >>> UNSERE LUECKE <<<
+             |  Menschliche Interviews, begrenzter Scope (4 Sessions),
+             |  professionelles Buch, skalierbarer als Full-Service
+             |
+$100-230     |  KI-Interview-Services
+             |  (Tell Mel, Life Story AI, StoriedLife, Autobiographer)
+             |  + Adaptiv, guenstig, skalierbar
+             |  - Unpersoenlich, KI-Grenzen bei sensiblen Themen
+             |
+$0-135       |  Prompt-basierte DIY-Services
+             |  (StoryWorth, Meminto, Kindred Tales, Remento)
+             |  + Niedrige Huerde, groesste Verbreitung
+             |  - Kein echtes Gespraech, kein adaptives Interview
+```
+
+Der globale "Digital Legacy"-Markt wird auf $13B (2024) geschaetzt, mit Wachstum auf $56B bis 2034 (Precedence Research). Die Nische "Guided Life Story to Book" liegt geschaetzt bei $100-500M global, mit 20-40% jaehrlichem Wachstum getrieben durch die Welle neuer KI-Anbieter seit 2024.
+
+### Besonders relevante Wettbewerber
+
+**StoryWorth** (USA, seit 2011) -- Klarer Marktfuehrer. Y Combinator-backed (W11). 1M+ Buecher gedruckt, 35M+ Stories. Geschaetzter Umsatz $10-20M/Jahr bei nur ~12 Mitarbeitern -- extrem kapitaleffizient. Bootstrapped nach YC ($150K Startkapital), profitabel. Zeigt, dass der Markt tragfaehig ist, aber prompt-basiert ohne echtes Gespraech.
+
+**Remento** (USA, seit 2020) -- Am besten finanzierter Pure-Play-Wettbewerber. $3.3M Funding ($3M Seed von Upfront Ventures + $300K Shark Tank Deal mit Mark Cuban fuer 10%). Umsatz: $620K in den ersten 10 Monaten, Projektion $4.6M fuer 2025. Video+Buch mit QR-Codes. Trustpilot 4.8 Sterne (1.200+ Reviews). Starke Wachstumsdynamik.
+
+**Meminto Stories** (Deutschland, seit 2017) -- Deutscher Marktfuehrer, aber klein. Bootstrapped, Gruender Albert Brueckmann. War bei DHDL (kein Deal, Bewertung EUR 1.4M). Umsatz 2021: EUR 30K (250 Buecher). 20.700+ Autoren, Micro-Team (1-5 Personen). Zeigt: der DACH-Markt ist offen, aber noch von niemandem dominant besetzt.
+
+### Weitere Firmen mit relevanten Finanzdaten
+
+| Firma | Funding | Umsatz/Traction | Besonderheit |
+|-------|---------|-----------------|--------------|
+| Eternos/Uare.ai | $10.3M Seed (Mayfield, Boldstart) | 400+ Nutzer | KI-Digital-Twin, kein Buch. Hoechstes Funding im Segment |
+| Autobiographer | $4M Pre-Seed | k.A. | iOS-App, Katie Couric Partner, TechCrunch |
+| LifeBio | $2.9M NIH-Grants | $2M+ Umsatz, 48 MA, profitabel | B2B Senior Care, seit 2006 |
+| MyHeritage MyStories | Teil von MyHeritage (boersennotiert gewesen) | Millionen Genealogie-Nutzer | Groesste strategische Bedrohung durch Cross-Selling |
+| StoryFile | k.A. | Chapter 11 (2024), $10.5M Schulden | Warnendes Beispiel: zu schnelles Wachstum |
+
+### Positionierung unserer Produktidee
+
+- **Teurer als KI** (Tell Mel $120-230, Life Story AI $99), aber menschlicher und emotionaler
+- **Guenstiger als Full-Service** (LifeBook, Gallus Verlag $500-50K+), aber strukturierter und skalierbarer
+- **Gespraechs-orientiert** statt prompt-basiert (Differenzierung zu StoryWorth/Meminto)
+- **Begrenzter Scope** (4 Sessions) statt Jahresprojekt (kein Abo-Muedigkeit)
+- **DACH-Fokus** -- im deutschsprachigen Raum gibt es kaum KI-Konkurrenz, Meminto ist klein
 
 ---
 
 ## 1. Direkte Wettbewerber -- Lebensgeschichten-Buch aus Interviews/Gespraechen
 
-### StoryWorth
+### StoryWorth ⭐
 - **URL:** https://storyworth.com
-- **Land:** USA (San Francisco)
+- **Land:** USA (Kailua, Hawaii)
 - **Angebot:** Woechentliche Frage-Prompts per E-Mail, Antworten per Text, Voicemail oder Telefon. Sammelt Antworten ueber ein Jahr und erstellt ein Hardcover-Buch (bis 300 Seiten, unbegrenzte Fotos).
 - **Preis:** $99/Jahr (inkl. 1 Hardcover-Buch). Zusaetzliche Kopien $69.
-- **Unterschied:** Prompt-basiert (1 Frage/Woche), kein echtes Gespraech. Kein adaptives Interview. Jahresabo-Modell. Groesster Anbieter am Markt, seit 2011, ueber 1 Mio. Buecher gedruckt.
+- **Finanzen:** Y Combinator W11 ($150K). Seitdem bootstrapped und profitabel. 10-13 Mitarbeiter. 1M+ Buecher gedruckt, 35M+ Stories. Geschaetzter Umsatz: $10-20M/Jahr. Gruender: Nick & Krista Baum (Familienunternehmen seit 2013).
+- **Unterschied:** Prompt-basiert (1 Frage/Woche), kein echtes Gespraech. Kein adaptives Interview. Jahresabo-Modell. Groesster Anbieter am Markt, seit 2011. Extrem kapitaleffizient.
 
-### Meminto Stories
+### Meminto Stories ⭐
 - **URL:** https://meminto.com
 - **Land:** Deutschland (Mosbach)
 - **Angebot:** KI-gestuetzte Textbearbeitung, Transkriptionsfunktionen, seniorenfreundliche Oberflaeche. Mehrere Familienmitglieder koennen zusammenarbeiten. DSGVO-konform, deutsche Server.
 - **Preis:** Einstieg kostenlos, groessere Pakete ab 99 EUR.
-- **Unterschied:** Prompt-basiert, kein Live-Interview. Deutscher Marktfuehrer. War bei "Die Hoehle der Loewen" (kein Deal). 20.700+ Autoren, kleines Team (1-5 Personen).
+- **Finanzen:** Bootstrapped. Gruender Albert Brueckmann (seit 2017). DHDL Sep 2022: EUR 250K fuer 15% angefragt (Bewertung EUR 1.4M) -- kein Deal. Umsatz 2020: EUR 7K (70 Buecher), 2021: EUR 30K (250 Buecher). 20.700+ Autoren, 48.900+ Stories. Micro-Team (1-5 Personen). Kooperation mit FAZ.net Marktplatz (Dez 2024).
+- **Unterschied:** Prompt-basiert, kein Live-Interview. Deutscher Marktfuehrer mangels Konkurrenz, aber sehr klein. Zeigt: DACH-Markt ist unterversorgt.
 
 ### LifeBook Memoirs
 - **URL:** https://www.lifebookmemoirs.com
@@ -40,10 +95,11 @@ Bereits bekannte Wettbewerber: StoryWorth, Meminto Stories, Interview meines Leb
 
 ### LifeBio
 - **URL:** https://www.lifebio.org
-- **Land:** USA
+- **Land:** USA (Marysville, OH)
 - **Angebot:** Professionelle Telefon-Interviews durch geschulte Interviewer mit strukturierten Fragen. Aufnahmen werden transkribiert und zu einem Buch kompiliert. Auch als Reminiszenz-Therapie-Plattform fuer Pflegeeinrichtungen positioniert.
 - **Preis:** $429 (2-Stunden-Interview) bis $699 (4-Stunden-Interview), inkl. Buch.
-- **Unterschied:** Menschliche Interviewer (wie das Produktkonzept), aber nur 1-2 Sessions statt 4. Auch im B2B-Bereich (Seniorenpflege) aktiv.
+- **Finanzen:** Seit 2006. $2M+ Umsatz, profitabel. 48 Mitarbeiter. $80K Angel + $100K Gruender-Investment + $2.9M NIH/SBIR-Grants (inkl. $2.4M fuer KI-Plattform mit Benjamin Rose Institute).
+- **Unterschied:** Menschliche Interviewer (wie das Produktkonzept), aber nur 1-2 Sessions statt 4. Starker B2B-Fokus (Seniorenpflege). Aeltester Anbieter im Markt.
 
 ### Interview meines Lebens (bereits bekannt)
 - **URL:** https://www.interview-meines-lebens.de
@@ -96,6 +152,7 @@ Bereits bekannte Wettbewerber: StoryWorth, Meminto Stories, Interview meines Leb
 - **Land:** USA
 - **Angebot:** iOS-App, KI fuehrt Gespraeche ueber Lebensereignisse und wandelt diese in Prosa um. Audio-Reflexionen werden zu geschriebenem Text. Memory Vault fuer Organisation. Featured in TechCrunch (Mai 2024).
 - **Preis:** $16/Monat oder $99/Jahr. Aktionsangebot: $69/Jahr (regulaer $199).
+- **Finanzen:** $4M Pre-Seed. Baut auf Anthropic (Claude). Promotion-Partnerschaft mit Katie Couric. Presse: TechCrunch, Entrepreneur.
 - **Unterschied:** Rein digital (kein gedrucktes Buch). Nur iOS. Self-Service-KI, kein menschlicher Interviewer.
 
 ### The AI Biographer
@@ -133,12 +190,13 @@ Bereits bekannte Wettbewerber: StoryWorth, Meminto Stories, Interview meines Leb
 - **Preis:** Nicht ermittelt (Premium-Segment).
 - **Unterschied:** Laengster Prozess (1 Jahr). Literarische Stilwahl. Premium-Positionierung.
 
-### Remento
+### Remento ⭐
 - **URL:** https://www.remento.co
 - **Land:** USA
 - **Angebot:** Video- oder Audio-Aufnahmen auf woechentliche Prompts. KI-Transkription "Speech-to-Story". QR-Codes im Buch verlinken zu Videos. Fotos. Shark-Tank-Deal mit Mark Cuban (2025).
 - **Preis:** $99/Jahr oder $12/Monat (inkl. 1 Buch). Zusaetzliche Buecher $69 (bis 200 S.) / $99 (bis 380 S.).
-- **Unterschied:** Einziger Anbieter mit Video-Recording + gedrucktem Buch. QR-Code-Integration. Prompt-basiert (kein adaptives Gespraech).
+- **Finanzen:** $3M Seed (Sep 2022, Lead: Upfront Ventures) + $300K Shark Tank (Mark Cuban, 10% Equity, Bewertung $3M). Gruender Charlie Greene (HBS). Umsatz: $620K in ersten 10 Monaten, Projektion $1.5M (2024), $4.6M (2025). Trustpilot 4.8 Sterne, 1.200+ Reviews. Presse: TechCrunch, CNN, Forbes, USA Today.
+- **Unterschied:** Einziger Anbieter mit Video-Recording + gedrucktem Buch. QR-Code-Integration. Prompt-basiert (kein adaptives Gespraech). Staerkstes Wachstum im Segment.
 
 ### Biograf.ai
 - **URL:** https://biograf.ai
@@ -214,7 +272,7 @@ Bereits bekannte Wettbewerber: StoryWorth, Meminto Stories, Interview meines Leb
 | Name | URL | Land | Angebot | Preis | Unterschied |
 |------|-----|------|---------|-------|-------------|
 | HereAfter AI | hereafter.ai | USA (2019) | Life Story Avatars aus Pre-Death-Interviews. Interaktives Erinnern fuer Familien | Gratis testen | Kein Buch, sondern interaktiver Avatar |
-| Eternos | eternos.life | USA (Palo Alto, 2024) | KI-Digital-Twin aus Interviews. 400+ Nutzer seit Launch | Ab $25/Monat | Fokus auf posthume Interaktion |
+| Eternos/Uare.ai | eternos.life | USA (Palo Alto, 2024) | KI-Digital-Twin aus Interviews. 400+ Nutzer. Rebranded zu Uare.ai Mitte 2025 | Ab $25/Monat. **$10.3M Seed (Mayfield, Boldstart, Nov 2025)** | Hoechstes Funding im Segment. Fokus auf posthume Interaktion |
 | StoryFile | storyfile.com | USA | Studio-Interviews mit mehreren Kameras, KI-basierte Gespraechspfade. Gegr. von Shoah-Foundation-Mitarbeiterin | Chapter 11 (2024), Reorganisation | Hohe Produktionsqualitaet, aber finanziell angeschlagen |
 
 ---
@@ -262,41 +320,9 @@ Bereits bekannte Wettbewerber: StoryWorth, Meminto Stories, Interview meines Leb
 
 ---
 
-## 5. Zusammenfassung der Wettbewerbslandschaft
+## 5. Zusammenfassung
 
-### Marktstruktur
-
-Der Markt ist stark fragmentiert mit drei Hauptsegmenten:
-
-1. **Prompt-basierte DIY-Services** (StoryWorth, Meminto, Kindred Tales): ~$99-135. Niedrige Huerde, aber kein echtes Gespraech. Groesstes Segment.
-
-2. **KI-Interview-Services** (Tell Mel, Life Story AI, StoriedLife, Memoirji): ~$0-230. Starkes Wachstum 2024-2026. KI fuehrt adaptive Gespraeche, aber kein menschlicher Interviewer.
-
-3. **Premium Human Services** (LifeBook Memoirs, Gallus Verlag, Interview meines Lebens, LifeBio): ~$500-50.000+. Menschliche Interviewer + Ghostwriter, aber teuer und nicht skalierbar.
-
-### Positionierung der Produktidee
-
-Die Produktidee (4 adaptive Sessions, Transkription, professionelles Buch) sitzt in einer **Luecke zwischen KI-Services und Premium-Human-Services**:
-
-- **Teurer als KI** (Tell Mel, Life Story AI), aber menschlicher und emotionaler
-- **Guenstiger als Full-Service** (LifeBook, Gallus Verlag), aber strukturierter und skalierbarer
-- **Gespraechs-orientiert** statt prompt-basiert (Differenzierung zu StoryWorth/Meminto)
-- **Begrenzter Scope** (4 Sessions) statt Jahresprojekt (Differenzierung zu Legacium, StoryWorth)
-
-### Wichtigste direkte Bedrohungen
-
-1. **Tell Mel** -- Sehr aehnliches Konzept (KI-Telefon-Interview, adaptive Gespraeche, Memoir-Kapitel), aber mit KI statt Mensch. Preis: $119-230.
-2. **Life Story AI** -- KI-Biographin mit adaptiven Folgefragen und gedrucktem Buch fuer $99.
-3. **Remento** -- Shark-Tank-Backed, Video+Buch, wachsende Bekanntheit.
-4. **MyHeritage MyStories** (Launched Feb 2026) -- Riesige bestehende Nutzerbasis aus Genealogie-Bereich.
-
-### Differenzierungspotenzial
-
-- Menschliche Interviews (Waerme, Empathie, Sensibilitaet bei schwierigen Themen)
-- Genau 4 Sessions (klarer Scope, kein Abo-Muedigkeit)
-- Professionelle Buchproduktion als Premium-Ergebnis
-- Deutschsprachiger Fokus (wenig KI-Konkurrenz im DACH-Raum)
-- Gesamterlebnis (nicht nur Endprodukt, sondern auch Prozess als Geschenk)
+Siehe Abstract oben fuer die strategische Einordnung und Positionierung.
 
 ---
 

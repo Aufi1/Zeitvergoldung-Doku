@@ -31,7 +31,7 @@ $0-135       |  Prompt-basierte DIY-Services
              |  - Kein echtes Gespraech, kein adaptives Interview
 ```
 
-Der globale "Digital Legacy"-Markt wird auf $13B (2024) geschaetzt, mit Wachstum auf $56B bis 2034 (Precedence Research). Die Nische "Guided Life Story to Book" liegt geschaetzt bei $100-500M global, mit 20-40% jaehrlichem Wachstum getrieben durch die Welle neuer KI-Anbieter seit 2024.
+Der globale "Digital Legacy"-Markt wird auf **$13.1B (2024)** geschaetzt, mit Wachstum auf **$55.8B bis 2034** bei 15.6% jaehrlicher Wachstumsrate ([Precedence Research](https://www.precedenceresearch.com/digital-legacy-market)). Fuer die spezifische Nische "Guided Life Story to Book" gibt es keine veroeffentlichten Marktstudien. Orientierungswerte: StoryWorth als Marktfuehrer macht geschaetzt $10-20M/Jahr, und seit 2024 sind ueber ein Dutzend neue KI-Anbieter in den Markt eingetreten.
 
 ### Besonders relevante Wettbewerber
 
